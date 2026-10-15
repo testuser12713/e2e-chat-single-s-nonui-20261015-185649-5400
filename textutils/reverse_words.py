@@ -3,4 +3,4 @@
 
 def reverse_words(text: str) -> str:
     """Reverse the order of the words in text."""
-    raise NotImplementedError
+    return " ".join(reversed(text.split()))
